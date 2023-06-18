@@ -1,0 +1,127 @@
+:root {
+    --white: #fdfdfd;
+    --black: #222222;
+    --dark-blue: #070C3F;
+    --opac-blue: #625BAF;
+    --orange: #DF6B00;
+    --transparent: #22222240;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--white);
+    color: var(--black);
+    padding: 32px 8px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+#cabecalho > h1 {
+    font-size: 1.8rem;
+    color: var(--dark-blue);
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    width: 100%;
+    max-width: 600px;
+    list-style: none;
+}
+
+#menu li:nth-child(2) {
+    background-color: var(--dark-blue);
+    padding: 4px 8px;
+    color: var(--white);
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px var(--transparent);
+}
+
+main{
+    padding: 100px 0 300px 0;
+    width: 100%;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+h1, h2, h3 {
+    color: var(--dark-blue);
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+    margin: 20px 0;
+    line-height: 32px;
+}
+
+h2 {
+    margin: 50px 0 20px 0;
+}
+
+main > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 16px;
+    list-style-type: disc;
+    color: var(--dark-blue);
+    width: fit-content;
+    margin: 56px auto;
+    gap: 32px;
+    column-gap: 56px;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+footer > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    list-style-type: none;
+}
+
+
+
