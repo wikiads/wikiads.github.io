@@ -1,0 +1,150 @@
+:root {
+    --white: #fdfdfd;
+    --black: #222222;
+    --dark-blue: #070C3F;
+    --opac-blue: #625BAF;
+    --orange: #DF6B00;
+    --transparent: #22222240;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--white);
+    color: var(--black);
+    padding: 32px 8px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+#cabecalho > h1 {
+    font-size: 1.8rem;
+    color: var(--dark-blue);
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    width: 100%;
+    max-width: 600px;
+}
+
+#menu li:nth-child(1) {
+    background-color: var(--dark-blue);
+    padding: 4px 8px;
+    color: var(--white);
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px var(--transparent);
+}
+
+main{
+    padding-bottom: 200px;
+}
+
+section {
+    width: 100%;
+    max-width: 800px;
+    margin: 100px auto;
+}
+
+section > h2 {
+    margin: 70px 0 16px 0;
+    font-size: 1.3rem;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 32px;
+}
+
+#secao-inicial {
+    display: block;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+
+ .conteudo {
+    width: 50%;
+}
+
+.conteudo > p {
+    font-size: 1rem;
+}
+
+
+.conteudo > h3 {
+    color: var(--dark-blue);
+    font-size: 1.2rem;
+    margin-bottom: 24px;
+}
+
+.conteudo > a {
+    display: block;
+    margin-top: 32px;
+    color: var(--orange);
+    font-weight: 900;
+    padding-bottom: 4px;
+    border-bottom: 2px solid var(--orange);
+    width: fit-content;
+}
+
+section > picture {
+    width: 40%;
+    aspect-ratio: 16/9;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+footer > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+
+}
+
