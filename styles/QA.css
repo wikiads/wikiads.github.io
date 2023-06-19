@@ -12,12 +12,6 @@
     padding: 0;
 }
 
-.imagem-central {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-}
 
 html {
     font-family: Arial, Helvetica, sans-serif;
@@ -58,7 +52,7 @@ ul {
     max-width: 600px;
 }
 
-#menu li:nth-child(3) {
+#menu li:nth-child(4) {
     background-color: var(--dark-blue);
     padding: 4px 8px;
     color: var(--white);
@@ -75,6 +69,11 @@ section {
     max-width: 800px;
     margin: 100px auto;
 }    
+img{
+    width: 780px;
+    height: 450px;
+}
+
 
 .profissional-qa{
     font-style: bold;
