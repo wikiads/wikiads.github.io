@@ -58,7 +58,7 @@ ul {
     max-width: 600px;
 }
 
-#menu li:nth-child(1) {
+#menu li:nth-child(3) {
     background-color: var(--dark-blue);
     padding: 4px 8px;
     color: var(--white);
