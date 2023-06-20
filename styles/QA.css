@@ -35,6 +35,7 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 18px;
+
 }
 
 #cabecalho > h1 {
@@ -79,17 +80,17 @@ img{
     font-style: bold;
 }
 
-h1,b {
+#secao-inicial > h1 {
     color: var(--dark-blue);
         font-size: 1.2rem;
         margin-bottom: 24px;
 }
 
-h1,b{
+#secao-inicial > h1,b{
     color: var(--dark-blue);
 }
 
-h1, h1 ,b {
+#secao-inicial > h1 {
     margin: 70px 0 16px 0;
     font-size: 1.3rem;
 }
