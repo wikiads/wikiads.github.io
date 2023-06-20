@@ -8,7 +8,7 @@ Bem-vindo à Wiki ADS! Este é um site de documentação com um guia básico de 
 1. [Início](#início)
 2. [Frontend](#frontend)
 3. [Backend](#backend)
-4. 3. [QA](#QA)
+4. [QA](#QA)
 
 ## Início
 
