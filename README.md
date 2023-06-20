@@ -9,6 +9,8 @@ Bem-vindo à Wiki ADS! Este é um site de documentação com um guia básico de 
 2. [Frontend](#frontend)
 3. [Backend](#backend)
 4. [QA](#QA)
+5. [Tecnologias](#Tecnologias)
+6. [ClonarRepositorio](#ClonarRepositorio)
 
 ## Início
 
@@ -29,3 +31,20 @@ A página QA aborda aspectos de Garantia de Qualidade relacionados ao projeto. A
 ## Contribuição
 
 Se você deseja contribuir com a Wiki ADS, fique à vontade para enviar pull requests. Certifique-se de seguir as diretrizes de contribuição e fornecer uma descrição clara das alterações propostas.
+
+## Tecnlogias
+
+Foram usadas HTML e CSS como linguagem de programação na criação do projeto Wiki Ads.
+
+## Como Clonar o Repositório
+
+Siga as instruções abaixo para clonar este repositório e obter uma cópia local em sua máquina:
+
+1. Abra o terminal ou a linha de comando.
+
+2. Navegue até o diretório em que deseja clonar o repositório.
+
+3. Execute o seguinte comando para clonar o repositório:
+
+```bash
+git clone https://github.com/wikiads/wikiads.github.io.git
