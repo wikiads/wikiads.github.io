@@ -8,10 +8,11 @@ Bem-vindo à Wiki ADS! Este é um site de documentação com um guia básico de 
 1. [Início](#início)
 2. [Frontend](#frontend)
 3. [Backend](#backend)
+4. 3. [QA](#QA)
 
 ## Início
 
-A página Início fornece uma visão geral do projeto e suas finalidades. Aqui você encontrará informações gerais sobre algumas areas onde um tecnologo em Análise e Desenvolvimento de Sistemas pode atuar junto com um resumo do curso e outras informações complementares.
+A página Início fornece uma visão geral do projeto e suas finalidades. Aqui você encontrará informações gerais sobre algumas areas onde um tecnologo em Análise e Desenvolvimento de Sistemas pode atuar, junto com um resumo do curso e outras informações complementares.
 
 ## Frontend
 
