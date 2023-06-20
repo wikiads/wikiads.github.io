@@ -36,7 +36,7 @@ Se você deseja contribuir com a Wiki ADS, fique à vontade para enviar pull req
 
 Foram usadas HTML e CSS como linguagem de programação na criação do projeto Wiki Ads.
 
-## Como Clonar o Repositório
+## ClonarRepositório
 
 Siga as instruções abaixo para clonar este repositório e obter uma cópia local em sua máquina:
 
@@ -46,5 +46,4 @@ Siga as instruções abaixo para clonar este repositório e obter uma cópia loc
 
 3. Execute o seguinte comando para clonar o repositório:
 
-```bash
 git clone https://github.com/wikiads/wikiads.github.io.git
