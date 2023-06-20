@@ -9,8 +9,8 @@ Bem-vindo à Wiki ADS! Este é um site de documentação com um guia básico de 
 2. [Frontend](#frontend)
 3. [Backend](#backend)
 4. [QA](#QA)
-5. [Tecnologias](#Tecnologias)
-6. [ClonarRepositorio](#ClonarRepositorio)
+5. [Tecnologias](#tecnologias)
+6. [Clonar Repositório](#clonar-repositório)
 
 ## Início
 
@@ -32,11 +32,11 @@ A página QA aborda aspectos de Garantia de Qualidade relacionados ao projeto. A
 
 Se você deseja contribuir com a Wiki ADS, fique à vontade para enviar pull requests. Certifique-se de seguir as diretrizes de contribuição e fornecer uma descrição clara das alterações propostas.
 
-## Tecnlogias
+## Tecnologias
 
 Foram usadas HTML e CSS como linguagem de programação na criação do projeto Wiki Ads.
 
-## ClonarRepositório
+## Clonar Repositório
 
 Siga as instruções abaixo para clonar este repositório e obter uma cópia local em sua máquina:
 
